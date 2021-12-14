@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f15d41ce549d478dbb1c772f205ec26, type: 3}
+  m_Name: Hacha
+  m_EditorClassIdentifier: 
+  nombre: Hacha
+  descripcion: "Herramienta guapa tipica de le\xF1ador barbudo que vive en canada
+    y necesita maderica pal invierno"
+  icono: {fileID: 21300000, guid: 2f877cf52c6264d05940925eef1ac4f1, type: 3}
+  prefabDrop: {fileID: 8252498904149922198, guid: 725ad72cf17514076b60e540e0c6def2, type: 3}
+  tipo: 1
+  puedeStackear: 0
+  maxNumStack: 0
+  stats: []
+  equipoPrefab: {fileID: 5860779378551445565, guid: 59f3d83b898944a439cae022a18cd353, type: 3}

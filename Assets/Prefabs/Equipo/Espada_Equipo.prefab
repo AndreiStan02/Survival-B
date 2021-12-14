@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4523712618768026067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6127106320549463496}
+  - component: {fileID: 5277609125605573669}
+  - component: {fileID: 3502953784835091615}
+  m_Layer: 11
+  m_Name: Espada_Equipo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6127106320549463496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523712618768026067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5742482345376375411}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.79, y: -0.47999996, z: 1.7749999}
+--- !u!114 &5277609125605573669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523712618768026067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c6ad4299e62490688fa596d7edabf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRate: 0.7
+  attackDistance: 1
+  puedeRecolectar: 0
+  doesDealDamage: 1
+  damage: 5
+--- !u!95 &3502953784835091615
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523712618768026067}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 810326b9ca97e473383875cc2ddb6d8a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &5204995935412749720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6127106320549463496}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.51050097
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.39492053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.42888176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6320499
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 10.843
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -109.887
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_Name
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+--- !u!4 &5742482345376375411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcf987fde4829486880d09c84ab76696, type: 3}
+  m_PrefabInstance: {fileID: 5204995935412749720}
+  m_PrefabAsset: {fileID: 0}
